@@ -6,7 +6,7 @@ enum OrderStatus {
 	// When the order has successfully reserved the ticket
 	AwaitingPayment = 'awaiting:payment',
 	// When the order has reserved a ticket and paid successfully
-	Complet= 'complete'
+	Complete= 'complete'
 }
 
 export default OrderStatus
