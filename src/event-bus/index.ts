@@ -10,6 +10,8 @@ import OrderCreatedEvent from "./order-created-event";
 
 import ExpirationCompleteEvent from "./expiration-complete-event";
 
+import PaymentCreatedEvent from "./payment-created-event";
+
 export {
 	Listener,
 	Publisher,
@@ -17,5 +19,6 @@ export {
 	TicketUpdatedEvent,
 	OrderCancelledEvent,
 	OrderCreatedEvent,
-	ExpirationCompleteEvent
+	ExpirationCompleteEvent,
+	PaymentCreatedEvent
 }
